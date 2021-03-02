@@ -1,0 +1,50 @@
+ul {
+  margin: 0;
+  padding 0;
+  list-style: none;
+  height: 36px;
+  /*line height:36px;*/
+  background-color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+  display: flex;
+  /* border-radius:4px;*/
+}
+
+li {
+  float: left;
+  border-right: 1px solid green;
+}
+
+a {
+  display: block;
+  padding: 0 28px;
+  text-decoration: none;
+  color: red;
+}
+
+.active a,
+a:hover {
+  background-color: blue;
+}
+
+h1 {
+  text-align: center;
+  color: tomato;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+@media (max-width: 1199px) {
+  ul {
+    width: 300%;
+  }
+
+}
